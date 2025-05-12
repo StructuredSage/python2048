@@ -20,7 +20,7 @@ def main():
 
         if move in commands:
             if move == 'q':
-                print ("Game aborted.")
+                print ("Game aborted, Hola Santi y Nacho.")
                 return                
             new_grid = commands[move](grid)
             if new_grid != grid:
